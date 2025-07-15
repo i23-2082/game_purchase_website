@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playfinity | Shooting</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/script/script.js"></script>
+</head>
+
+<body>
+    <div style="width: 100%; height: 15vmin; position: absolute; top: 0px; left: 0; background-color: #2E2467">
+        <div class="userinfo">
+            <p style="font-family:Myriad; font-size: 2.5vmin; color: white;" id="output">Hello, Anonymous</p>
+        </div>
+    </div>
+    <div class="backgroundgame">
+        <div class="webname">
+            <div class="logoBack"></div>
+            <div class="name">
+                <p style="color: #BF00FF">P</p>
+                <p>lay</p>
+                <p style="color: #BF00FF">F</p>
+                <p>inity</p>
+            </div>
+            <img src="assets/images/playfinitylogo.png">
+        </div>
+    </div>
+
+    <div class="navbar">
+        <button class="navbtn" onclick="goToHomePage()">Home</button>
+        <div class="dropdown">
+            <button class="navbtn">Categories ▼</button>
+            <div class="dropdown-content">
+                <a href="adventure.html">Adventure</a>
+                <a href="horror.html">Horror</a>
+                <a href="shooting.html">Shooting</a>
+                <a href="arcade.html">Arcade</a>
+                <a href="sports.html">Sports</a>
+                <a href="story.html">Story</a>
+                <a href="superhero.html">Superhero</a>
+                <a href="rpg.html">RPG</a>
+            </div>
+        </div>
+        <button class="navbtn" onclick="goToAbout()">About Us</button>
+    </div>
+
+    <div class="arcadeitems">
+        <h1
+            style="font-family: Devator; color: #dfdfdf; text-shadow: 0 0 8px #d556ff; background-color: #2E2467; width: 54vmin; height: 7.5vmin; display: flex; justify-content: center; align-items: center; border-radius: 4px; border: 2px solid #ca2dff; box-shadow: 0 0 15px#800080; position: absolute; z-index: 2;">
+            | Shooting |</h1>
+        <div class="arcade">
+            <img src="assets/images/starter.jpg">
+            <p class="sometext" style="margin-left: -7vmin;">Dive into the intense realm of shooting games, where
+                players wield diverse firearms in realistic or futuristic landscapes.
+                Quick reflexes and precision marksmanship are crucial in dynamic firefights and strategic team play.
+                Lifelike graphics and dynamic audio amplify the immersive experience,
+                creating an adrenaline-fueled virtual battlefield with moments of intense competition and strategy.</p>
+        </div>
+
+    </div>
+    <div class="arcadegames">
+        <div class="game">
+            <img src="assets/images/MW3.png">
+            <div class="arOver">
+                <div class="arText">Call Of Duty MW 3</div>
+                <div id="Call of Duty" class="gameDes" style="color:white">Price: $ 112.99<br>Developer: Infinity Ward
+                    <br>Size:
+                    151.4 GB<br>Released: NOV 10, 2009<br>Available: PC, PS4, Xbox One<br> Modern Warfare 2 is a first
+                    person shooter,
+                    and its gameplay revolves around fast-paced gunfights against enemy combatants.
+                </div>
+                <button onclick="addToCart('Call of Duty', 'Call Of Duty MW 3', 112.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/BO3.jpg">
+            <div class="arOver">
+                <div class="arText">Call of Duty BO 3</div>
+                <div id="COD BO3" class="gameDes" style="color:white">Price:
+                    $87.49<br>Developer: Gavin Locke<br>Size: 100GB<br>Released: November 6, 2015<br>Available on PC,
+                    PS5, Xbox Series X|S,
+                    Nintendo
+                    Switch<br>the first reveal trailer for the Call Of Duty Black Ops 3 was
+                    released and revealed the return of the Zombies mode and beta access for
+                    people.</div>
+                <button onclick="addToCart('COD BO3', 'Call of Duty BO 3', 87.49)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/fortnite.jpg">
+            <div class="arOver">
+                <div class="arText">FORTNITE</div>
+                <div id="fortnite" class="gameDes" style="color:white">Price:
+                    $59.99<br>Developer: Epic Games, People Can Fly<br>Size: 68.048GB<br>Released: February 17,
+                    2022<br>Available on Epic Games
+                    Store, PlayStation 4, PlayStation
+                    5, GeForce Now, Xbox Cloud Gaming, Xbox One<br>Fortnite is a third-person shooter game where up to
+                    100 players compete to be
+                    the last person or team standing. You can compete alone or join a team of up to four. You progress
+                    through the game by exploring
+                    the island, collecting weapons, building fortifications and engaging in combat with other players..
+                </div>
+                <button onclick="addToCart('fortnite', 'FORTNITE', 59.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/pubg.jpg">
+            <div class="arOver">
+                <div class="arText">PUBG PC</div>
+                <div id="PUBG" class="gameDes" style="color:white">Price:
+                    $10.29<br>Developer: Brendan Greene<br>Size: 4.5GB<br>Released: February 04, 2016<br>Available on
+                    PC,
+                    PlayStation 4, and Nintendo
+                    Switch<br>PUBG: Battlegrounds is a battle royale game developed by PUBG Studios and published by
+                    Krafton.
+                    The game, which was inspired by the Japanese film Battle Royale, is based on previous mods created
+                    by Brendan
+                    "PlayerUnknown" Greene for other games, and expanded into a standalone game under Greene's creative
+                    direction.
+                </div>
+                <button onclick="addToCart('PUBG', 'PUBG PC', 10.29)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/battlefield.jpg">
+            <div class="arOver">
+                <div class="arText">Battlefield
+                </div>
+                <div id="Battlefield" class="gameDes" style="color:white">Price:
+                    Free<br>Developer: Electronic Arts, Neowiz Games, Aspyr, Aeria Games<br>Size:
+                    2.16GB<br>Released: September 10, 2002<br>Available on PC, PlayStation 4, and Nintendo
+                    Switch<br>Battlefield is a series of first-person shooter video games developed by
+                    Swedish company EA DICE and is published by American company Electronic Arts.
+                </div>
+                <button onclick="addToCart('Battlefield', 'Battlefield', 0)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/doom.jpg">
+            <div class="arOver">
+                <div class="arText">Doom</div>
+                <div id="Doom" class="gameDes" style="color:white">Price:
+                    $23.99<br>Developer: Bethesda Softworks, id Software, Nightdive Studios, MORE<br>Size:
+                    20GB<br>Released: December 10, 1993<br>Available on Playstation 4, Windows, Xbox One<br>
+                    Doom is an American media franchise created by John Carmack, John Romero, Adrian Carmack, Kevin
+                    Cloud, and Tom Hall.
+                </div>
+                <button onclick="addToCart('Doom', 'Doom', 23.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/halo.jpeg">
+            <div class="arOver">
+                <div class="arText">Halo</div>
+                <div id="Halo" class="gameDes" style="color:white">Price:
+                    $4.99<br>Developer: Bungie Inc., Gearbox Software, MacSoft, Westlake Interactive<br>Size:
+                    36GB<br>Released: November 15, 2001<br>Available on PC, PS4, PS5, Switch, Xbox One Xbox Series
+                    X|S<br>
+                    Combat Evolved is a 2001 first-person shooter video game developed by Bungie and published by
+                    Microsoft
+                    Game Studios for the Xbox. It was released as a launch game for Microsoft's Xbox video game console
+                    on
+                    November 15, 2001
+                </div>
+                <button onclick="addToCart('Halo', 'Halo', 4.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/apex.jpeg">
+            <div class="arOver">
+                <div class="arText">Apex legends
+                </div>
+                <div id="Apex legends " class="gameDes" style="color:white">Price:
+                    $94.99<br>Developer: Respawn Entertainment, Panic Button Games
+                    Engine<br>Size:
+                    60GB<br>Released: February 4, 2019<br>Available on PC, PS4, PS5, Xbox One, Xbox Series X<br>
+                    Apex Legends is a free-to-play battle royale-hero shooter game developed by Respawn Entertainment
+                    and published by Electronic Arts.
+                </div>
+                <button onclick="addToCart('Apex legends ', 'Apex legends ', 94.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/RSS.png">
+            <div class="arOver">
+                <div class="arText">Rainbow six siege</div>
+                <div id="Rainbow six siege" class="gameDes" style="color:white">Price:
+                    $59.99<br>Developer: Team Ninja, Koei Tecmo<br>Size:
+                    50GB<br>Released: December 1, 2015<br>Available on Steam, Xbox, PlayStation<br>
+                    Tom Clancy's Rainbow Six Siege is an online tactical shooter video game developed
+                    by Ubisoft Montreal and published by Ubisoft.
+                </div>
+                <button onclick="addToCart('Rainbow six siege', 'Rainbow six siege', 59.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="cart" id="cart">
+        <h2>Gaming Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0.00<br></span>
+        <div>
+            <label for="paymentMethod">Select Payment Method:</label>
+            <select id="paymentMethod">
+                <option value="atm">ATM</option>
+                <option value="visa">Visa Card</option>
+            </select>
+        </div><button onclick="document.location='thankyou.html'" class="proceedbtn">Proceed</button></p>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="home.html">Categories</a></li>
+                    <li><a href="last page.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: contact@playfinity.com</p>
+                <p>Phone: +1-123-456-7890</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Playfinity. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

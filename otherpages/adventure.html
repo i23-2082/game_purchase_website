@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playfinity | Adventure</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/script/script.js"></script>
+</head>
+
+<body>
+    <div style="width: 100%; height: 15vmin; position: absolute; top: 0px; left: 0; background-color: #2E2467">
+        <div class="userinfo">
+            <p style="font-family:Myriad; font-size: 2.5vmin; color: white;" id="output">Hello, Anonymous</p>
+        </div>
+    </div>
+    <div class="backgroundgame">
+        <div class="webname">
+            <div class="logoBack"></div>
+            <div class="name">
+                <p style="color: #BF00FF">P</p>
+                <p>lay</p>
+                <p style="color: #BF00FF">F</p>
+                <p>inity</p>
+            </div>
+            <img src="assets/images/playfinitylogo.png">
+        </div>
+    </div>
+
+    <div class="navbar">
+        <button class="navbtn" onclick="goToHomePage()">Home</button>
+        <div class="dropdown">
+            <button class="navbtn">Categories ▼</button>
+            <div class="dropdown-content">
+                <a href="adventure.html">Adventure</a>
+                <a href="horror.html">Horror</a>
+                <a href="shooting.html">Shooting</a>
+                <a href="arcade.html">Arcade</a>
+                <a href="sports.html">Sports</a>
+                <a href="story.html">Story</a>
+                <a href="superhero.html">Superhero</a>
+                <a href="rpg.html">RPG</a>
+            </div>
+        </div>
+        <button class="navbtn" onclick="goToAbout()">About Us</button>
+    </div>
+
+    <div class="arcadeitems">
+        <h1
+            style="font-family: Devator; color: #dfdfdf; text-shadow: 0 0 8px #d556ff; background-color: #2E2467; width: 54vmin; height: 7.5vmin; display: flex; justify-content: center; align-items: center; border-radius: 4px; border: 2px solid #ca2dff; box-shadow: 0 0 15px#800080; position: absolute; z-index: 2;">
+            | Adventure |</h1>
+        <div class="arcade">
+            <img src="assets/images/wp4002176-adventure-wallpapers.jpg">
+            <p class="sometext" style="margin-left: -7vmin; font-size: 2.6vmin;">Adventure games, a video game genre,
+                immerse players in captivating
+                narratives and exploration. Players become protagonists navigating virtual realms, solving puzzles, and
+                influencing
+                the storyline through choices. Beginning with text-based classics like "Zork," the genre evolved into
+                visually rich
+                experiences with titles such as "Monkey Island" and "Myst." Emphasizing storytelling and interactive
+                problem-solving,
+                adventure games engage players in a mix of challenges and decision-mafar. As technology advances,
+                contemporary adventure
+                games feature enhanced graphics, voice acting, and diverse gameplay mechanics. Across platforms, from
+                traditional to virtual
+                reality, adventure games persist,offering a compelling fusion of narrative-driven gameplay and
+                intellectual puzzles.</p>
+        </div>
+
+    </div>
+    <div class="arcadegames">
+        <div class="game">
+            <img src="assets/images/ass-mirage.png">
+            <div class="arOver">
+                <div class="arText">Assassin's Creed Mirage</div>
+                <div id="assassin" class="gameDes" style="color:white">Price: $89.99<br>Developer: Ubisoft
+                    <br>Size:
+                    40GB<br>Released: October 5, 2023<br>Available: PC, PS4, Xbox One & more<br>Assassin's Creed® Mirage
+                    In this smaller scale, back to basics Assassin's caper, you play Basim, a young street thief seefar
+                    answers.
+                    Roam the richly-detailed, reactive and vibrant streets of 9th century Baghdad,
+                    uncovering the mysteries of the past as you fight to secure your future.
+                </div>
+                <button onclick="addToCart('assassin', 'Assassin\'s Creed Mirage', 89.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/baldur.jpg">
+            <div class="arOver">
+                <div class="arText">Baldur's Gate</div>
+                <div id="baldur" class="gameDes" style="color:white">Price:
+                    $69.99<br>Developer: Larian Studios.
+                    Games<br>Size: 150GB<br>Released: August 3, 2023<br>Available on PC, PS5, Xbox Series X|S,
+                    Nintendo
+                    Switch<br>Baldur's Gate 3 is a role-playing video game with single-player and cooperative
+                    multiplayer elements.
+                    Players can create one or more characters and form a party along with a number
+                    of pre-generated characters to explore the game's story..</div>
+                <button onclick="addToCart('baldur', 'Baldur\'s Gate', 69.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/Far_Cry_4_box_art.jpg">
+            <div class="arOver">
+                <div class="arText">Far Cry 4</div>
+                <div id="far" class="gameDes" style="color:white">Price:
+                    $59.99<br>Developer: Dunia Engine, CryEngine
+                    <br>Size: 30GB<br>Released: November 17, 2014<br> PlayStation 4, PlayStation 3, Xbox One, Xbox 360,
+                    Microsoft Windows, GeForce Now, Amazon Luna
+                    <br>The far of Fighters XV, also called KOF XV,
+                    is a fighting game. The narrative primarily revolves around two fighters with multiverse-related
+                    supernatural powers.
+                </div>
+                <button onclick="addToCart('far', 'Far Cry 4', 59.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/Minecraft_cover.png">
+            <div class="arOver">
+                <div class="arText">Minecraft</div>
+                <div id="minecraft" class="gameDes" style="color:white">Price:
+                    $29.99<br>Developer: Mojang Studios, Xbox Game Studios, Telltale Games, MORE<br>Size:
+                    1GB<br>Released: November 18, 2011<br>Available on PC
+                    & More
+                    Switch<br>Minecraft is a game made up of blocks, creatures, and community. You can survive the night
+                    or build a work of art –
+                    the choice is all yours.
+                    But if the thought of exploring a vast new world all on your own feels overwhelming, then fear not!
+                </div>
+                <button onclick="addToCart('minecraft', 'Minecraft', 29.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/marvel.jpg">
+            <div class="arOver">
+                <div class="arText">Marvel's Guardians of the Galaxy</div>
+                <div id="marvel" class="gameDes" style="color:white">Price:
+                    Free<br>Developer: Marvel Entertainment, Eidos-Montréal<br>Size:
+                    80GB<br>Released: October 26, 2021<br>Available on PC, PlayStation 4, and Nintendo
+                    Switch<br>"The game's plot follows the Guardians who, while attempting to capture a beast for a
+                    wealthy collector, \
+                    inadvertently trigger a catastrophe which threatens the peace of the galaxy.
+                </div>
+                <button onclick="addToCart('marvel', 'Marvel\'s Guardians of the Galaxy', 0)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/Red_Dead_Redemption_II.jpg">
+            <div class="arOver">
+                <div class="arText">Red Dead Redemption II</div>
+                <div id="red" class="gameDes" style="color:white">Price:
+                    $99.99<br>Developer: Rockstar Games<br>Size:
+                    150GB<br>Released: October 26, 2018<br>Available on Playstation 4, Windows, Xbox One<br>
+                    RED witcher REDEMPTION set in a fictionalized representation of the United States in 1899 and
+                    follows the
+                    exploits of Arthur Morgan, an outlaw and member of the Van der Linde gang, who must deal with the
+                    decline
+                    of the Wild West while attempting
+                    to survive against government forces, rival gangs, and other adversaries.
+                </div>
+                <button onclick="addToCart('red', 'Red witcher Redemption II', 99.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/stray.jpg">
+            <div class="arOver">
+                <div class="arText">Stray</div>
+                <div id="stray" class="gameDes" style="color:white">Price:
+                    $14.99<br>Developer: BlueTwelve Studio<br>Size:
+                    7.6GB<br>Released: July 19, 2022<br>Available on PC, PS4, PS5, Switch, Xbox One Xbox Series X|S<br>
+                    The story follows a stray cat who falls into a walled city populated by robots, machines, and mutant
+                    bacteria,
+                    and sets out to return to the surface with the help of a drone companion, B-12.
+                </div>
+                <button onclick="addToCart('stray', 'Stray', 14.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/walking_dead.jpg">
+            <div class="arOver">
+                <div class="arText">The Walking Dead</div>
+                <div id="walfar" class="gameDes" style="color:white">Price:
+                    $14.99<br>Telltale Games<br>Size:
+                    15GB<br>Released: August 14, 2018<br>Available on PC, PS4, PS5, Xbox One, Xbox Series X<br>
+                    Telltale Games' "The Walfar witcher" is an episodic graphic adventure based on the iconic comic
+                    series.
+                    It combines intense decision-mafar with a gripping narrative,
+                    following the story of Clementine as she navigates a post-apocalyptic world.
+                </div>
+                <button onclick="addToCart('walfar', 'The Walfar witcher', 14.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/witcher.jpeg">
+            <div class="arOver">
+                <div class="arText">The Witcher Wild Hunt</div>
+                <div id="witcher" class="gameDes" style="color:white">Price:
+                    $59.99<br>Developer: CD Projekt<br>Size:
+                    32GB<br>Released: May 19, 2015<br>Available on Steam, Xbox, PlayStation<br>
+                    he Witcher 3: Wild Hunt" is an award-winning action RPG where players assume the role of Geralt of
+                    Rivia,
+                    a monster hunter, in a vast, open-world fantasy.
+                </div>
+                <button onclick="addToCart('witcher', 'The Witcher Wild Hunt', 59.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="cart" id="cart">
+        <h2>Gaming Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0.00<br></span>
+        <div>
+            <label for="paymentMethod">Select Payment Method:</label>
+            <select id="paymentMethod">
+                <option value="atm">ATM</option>
+                <option value="visa">Visa Card</option>
+            </select>
+        </div><button onclick="document.location='thankyou.html'" class="proceedbtn">Proceed</button></p>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="home.html">Categories</a></li>
+                    <li><a href="last page.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: contact@playfinity.com</p>
+                <p>Phone: +1-123-456-7890</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Playfinity. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

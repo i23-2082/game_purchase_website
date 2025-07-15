@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playfinity | STORY</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/script/script.js"></script>
+</head>
+
+<body>
+    <div style="width: 100%; height: 15vmin; position: absolute; top: 0px; left: 0; background-color: #2E2467">
+        <div class="userinfo">
+            <p style="font-family:Myriad; font-size: 2.5vmin; color: white;" id="output">Hello, Anonymous</p>
+        </div>
+    </div>
+    <div class="backgroundgame">
+        <div class="webname">
+            <div class="logoBack"></div>
+            <div class="name">
+                <p style="color: #BF00FF">P</p>
+                <p>lay</p>
+                <p style="color: #BF00FF">F</p>
+                <p>inity</p>
+            </div>
+            <img src="assets/images/playfinitylogo.png">
+        </div>
+    </div>
+
+    <div class="navbar">
+        <button class="navbtn" onclick="goToHomePage()">Home</button>
+        <div class="dropdown">
+            <button class="navbtn">Categories ▼</button>
+            <div class="dropdown-content">
+                <a href="adventure.html">Adventure</a>
+                <a href="horror.html">Horror</a>
+                <a href="shooting.html">Shooting</a>
+                <a href="arcade.html">Arcade</a>
+                <a href="sports.html">Sports</a>
+                <a href="story.html">Story</a>
+                <a href="superhero.html">Superhero</a>
+                <a href="rpg.html">RPG</a>
+            </div>
+        </div>
+        <button class="navbtn" onclick="goToAbout()">About Us</button>
+    </div>
+
+    <div class="arcadeitems">
+        <h1
+            style="font-family: Devator; color: #dfdfdf; text-shadow: 0 0 8px #d556ff; background-color: #2E2467; width: 54vmin; height: 7.5vmin; display: flex; justify-content: center; align-items: center; border-radius: 4px; border: 2px solid #ca2dff; box-shadow: 0 0 15px#800080; position: absolute; z-index: 2;">
+            | Story |</h1>
+        <div class="arcade">
+            <img src="assets/images/wp2614866-wallpaper-hd-games.jpg">
+            <p class="sometext" style="margin-left: -7vmin;">Story games immerse players in rich narratives,
+                where choices shape the plot. Combining elements of storytelling and interactive gameplay,
+                these games offer dynamic and engaging experiences. Players navigate through intricate plots,
+                making decisions that influence the outcome. From epic adventures to emotional dramas, story games
+                captivate with
+                compelling characters and unpredictable twists, providing an interactive and immersive narrative
+                journey.</p>
+        </div>
+
+    </div>
+    <div class="arcadegames">
+        <div class="game">
+            <img src="assets/images/Uncharted_4_box_artwork.jpg">
+            <div class="arOver">
+                <div class="arText">Uncharted 4: A Thief's End</div>
+                <div id="Uncharted" class="gameDes" style="color:white">Price: $89.99<br>Naughty Dog
+                    <br>Size:
+                    40GB<br>Released: May 10, 2016<br>Available: PS4, Xbox One & more<br>Uncharted 4: A Thief's End is
+                    an action-adventure game played from a third-person perspective, with platforming elements.
+                    Players traverse several environments, moving through
+                    locations including towns, buildings, and wilderness to advance through the game's story.
+                </div>
+                <button onclick="addToCart('Uncharted', 'Uncharted 4: A Thiefs End<', 89.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/social-thumbnail-en-ddcf4d23.jpg">
+            <div class="arOver">
+                <div class="arText">Cyberpunk 2077</div>
+                <div id="cyberpunk" class="gameDes" style="color:white">Price:
+                    $69.99<br> CD Projekt RED, CD Projekt, CDP.pl
+                    Games<br>Size: 70GB<br>Released: December 10, 2020<br>Available on PC, PS5, Xbox Series
+                    Switch<br>Cyberpunk 2077 is an open-world, action-adventure RPG set in the megalopolis of Night
+                    City,
+                    where you play as a cyberpunk mercenary wrapped-up in a do-or-die fight for survival. .</div>
+                <button onclick="addToCart('cyberpunk', 'Cyberpunk 2077', 69.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/portal2-1638924084230.jpg">
+            <div class="arOver">
+                <div class="arText">Portal 2</div>
+                <div id="Portal" class="gameDes" style="color:white">Price:
+                    $59.99<br>Developer: Valve Corporation
+                    <br>Size: 8GB<br>Released: April 18, 2011<br> PlayStation 4, PlayStation 3, Xbox One, Xbox 360,
+                    Microsoft Windows, GeForce Now, Amazon Luna
+                    <br>Portal 2 is a first-person perspective puzzle game. The player takes the role of Chell in the
+                    single-player campaign, as one of two robots—Atlas and
+                    P-Body—in the cooperative campaign, or as a simplistic humanoid icon in community-developed puzzles.
+                </div>
+                <button onclick="addToCart('Portal', 'Portal 2', 59.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/images (1).jpeg">
+            <div class="arOver">
+                <div class="arText">Gone Home</div>
+                <div id="Gone" class="gameDes" style="color:white">Price:
+                    $19.99<br>Developer: Fullbright, Blitworks<br>Size: <br>Released: August 15, 2013<br> PlayStation 4,
+                    Nintendo Switch, Xbox One, MORE
+                    <br>Gone home is an interactive exploration simulator. Interrogate every detail of a seemingly
+                    normal house to discover the story of
+                    the people who live there. Open any drawer and door. Pick up objects and examine them to discover
+                    clues.
+                </div>
+                <button onclick="addToCart('Gone', 'Gone Home', 19.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/images.jpeg">
+            <div class="arOver">
+                <div class="arText">God of War</div>
+                <div id="god of war" class="gameDes" style="color:white">Price:
+                    Free<br>Developer: Santa Monica Studio<br>Size:
+                    45.654GB<br>Released: October 26, 2021<br>Available on PC, PlayStation 4, and Nintendo
+                    Switch<br>"The game's plot follows the Guardians who, while attempting to capture a beast for a
+                    wealthy collector, \
+                    inadvertently trigger a catastrophe which threatens the peace of the galaxy.
+                </div>
+                <button onclick="addToCart('god of war', 'God of War', 0)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/GTAO_Contract_Launch_MSFT_YTthumbnail_1920x1080.jpg">
+            <div class="arOver">
+                <div class="arText">GTA V</div>
+                <div id="gta" class="gameDes" style="color:white">Price:
+                    $99.99<br>Developer: Rockstar Games<br>Size:
+                    90GB<br>Released: September 17, 2013
+                    <br>Available on Playstation 4, Windows, Xbox One<br>
+                    Set within the fictional state of San Andreas, based on Southern California, the single-player
+                    story follows three protagonists—retired bank robber Michael De Santa, street gangster Franklin
+                    Clinton, and drug dealer and gunrunner Trevor Philips—and their attempts to commit heists while
+                    under pressure from a corrupt
+
+                </div>
+                <button onclick="addToCart('gta', 'GTA V', 99.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/download.jpeg">
+            <div class="arOver">
+                <div class="arText">Mafia III</div>
+                <div id="mafia" class="gameDes" style="color:white">Price:
+                    $14.99<br>Developer: Hangar 13<br>Size:
+                    30GB<br>Released: October 7, 2016<br>Mafia III is an action-adventure game set in an open world
+                    environment and played from a third-person perspective, in which the player assume control of
+                    Lincoln Clay
+                    , a Vietnam War veteran on a quest to seek revenge for his adopted family, who are murdered by local
+                    mobs.
+                </div>
+                <button onclick="addToCart('mafia', 'Mafia III', 14.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/capsule_616x353 (2).jpg">
+            <div class="arOver">
+                <div class="arText">BioShock Infinite</div>
+                <div id="bio" class="gameDes" style="color:white">Price:
+                    $14.99<br>Devloper: rrational Games, 2K Marin, 2K Australia, Aspyr, Virtual Programming<br>Size:
+                    30GB<br>Released: March 26, 2013<br>Available on PC, PS4, PS5, Xbox One, Xbox Series X<br>
+                    BioShock Infinite is a first-person shooter with role-playing elements. Infinite adapts the gameplay
+                    formula of BioShock, with weapons, powers, and upgrades often functioning similar as those in the
+                    earlier game, albeit named differently.
+                </div>
+                <button onclick="addToCart('bio', 'BioShock Infinite', 14.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/capsule_616x353 (1).jpg">
+            <div class="arOver">
+                <div class="arText">FireWatch</div>
+                <div id="fire" class="gameDes" style="color:white">Price:
+                    $59.99<br>Developer: Campo Santo<br>Size:
+                    4GB<br>Released: February 9, 2016<br>Nintendo Switch, PlayStation 4, Xbox One, macOS, MORE<br>
+                    Constantly patrolling areas where “hot work” is being performed, maintaining vigilance of
+                    potential fires. Being familiar with facilities and procedures for sounding an alarm in the
+                    event of a fire and having a means of notifying emergency services.
+                </div>
+                <button onclick="addToCart('fire', 'FireWatch', 59.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="cart" id="cart">
+        <h2>Gaming Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0.00<br></span>
+        <div>
+            <label for="paymentMethod">Select Payment Method:</label>
+            <select id="paymentMethod">
+                <option value="atm">ATM</option>
+                <option value="visa">Visa Card</option>
+            </select>
+        </div><button onclick="document.location='thankyou.html'" class="proceedbtn">Proceed</button></p>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="home.html">Categories</a></li>
+                    <li><a href="last page.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: contact@playfinity.com</p>
+                <p>Phone: +1-123-456-7890</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Playfinity. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

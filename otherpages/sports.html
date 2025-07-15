@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playfinity | Sports</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/script/script.js"></script>
+</head>
+
+<body>
+    <div style="width: 100%; height: 15vmin; position: absolute; top: 0px; left: 0; background-color: #2E2467">
+        <div class="userinfo">
+            <p style="font-family:Myriad; font-size: 2.5vmin; color: white;" id="output">Hello, Anonymous</p>
+        </div>
+    </div>
+    <div class="backgroundgame">
+        <div class="webname">
+            <div class="logoBack"></div>
+            <div class="name">
+                <p style="color: #BF00FF">P</p>
+                <p>lay</p>
+                <p style="color: #BF00FF">F</p>
+                <p>inity</p>
+            </div>
+            <img src="assets/images/playfinitylogo.png">
+        </div>
+    </div>
+
+    <div class="navbar">
+        <button class="navbtn" onclick="goToHomePage()">Home</button>
+        <div class="dropdown">
+            <button class="navbtn">Categories ▼</button>
+            <div class="dropdown-content">
+                <a href="adventure.html">Adventure</a>
+                <a href="horror.html">Horror</a>
+                <a href="shooting.html">Shooting</a>
+                <a href="arcade.html">Arcade</a>
+                <a href="sports.html">Sports</a>
+                <a href="story.html">Story</a>
+                <a href="superhero.html">Superhero</a>
+                <a href="rpg.html">RPG</a>
+            </div>
+        </div>
+        <button class="navbtn" onclick="goToAbout()">About Us</button>
+    </div>
+
+    <div class="arcadeitems">
+        <h1
+            style="font-family: Devator; color: #dfdfdf; text-shadow: 0 0 8px #d556ff; background-color: #2E2467; width: 54vmin; height: 7.5vmin; display: flex; justify-content: center; align-items: center; border-radius: 4px; border: 2px solid #ca2dff; box-shadow: 0 0 15px#800080; position: absolute; z-index: 2;">
+            | Sports |</h1>
+        <div class="arcade">
+            <img src="assets/images/sports.jfif">
+            <p class="sometext" style="margin-left: -7vmin;">Sports games are video games that simulate real-world
+                sports, allowing players to engage in virtual renditions of activities like football, basketball,
+                soccer, and more.
+                They often strive for realism, replicating the rules, strategies, and dynamics of the actual sports.
+                These games can range from highly realistic simulations with accurate player likenesses and physics to
+                more arcade-style experiences with exaggerated action.
+                Multiplayer modes are common, enabling players to compete against friends or others online, adding a
+                social and competitive dimension to the gaming experience.</p>
+        </div>
+
+    </div>
+    <div class="arcadegames">
+        <div class="game">
+            <img src="assets/images/24.jpg">
+            <div class="arOver">
+                <div class="arText">EA FC 24</div>
+                <div id="24" class="gameDes" style="color:white">Price: $99.99<br>Developer: EA<br>Size:
+                    77GB<br>Released: october 24, 2023<br>Available: PC, PS4, Xbox, Ntendo<br>A soccer simulation game
+                    developed by EA Sports.
+                    It features updated player rosters, enhanced graphics, and improvements in gameplay mechanics,
+                    offering a realistic and immersive experience for soccer enthusiasts.
+
+
+                </div>
+                <button onclick="addToCart('24', 'EA FC 24', 99.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/dc.jpg">
+            <div class="arOver">
+                <div class="arText">Driveclub</div>
+                <div id="dc" class="gameDes" style="color:white">Price:
+                    $27.99<br>Developer: Evolution Studios.
+                    Games<br>Size: 37GB<br>Released:January 25, 2014<br>Available on PC, PS5, Xbox Series X|S,
+                    Nintendo
+                    Switch<br>It features realistic graphics, a variety of cars and tracks, and a focus on social
+                    connectivity, allowing players to join clubs and compete in challenges with friends.
+
+
+                </div>
+                <button onclick="addToCart('dc', 'Driveclub', 27.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/f5.jpg">
+            <div class="arOver">
+                <div class="arText">Forza 5</div>
+                <div id="f5" class="gameDes" style="color:white">Price:
+                    $90.99<br>Developer: Turn10studios<br>Size: 170.048GB<br>Released: Feb 2, 2022<br>EXLCUSIVELY FOR
+                    Xbox.
+                    <br>It offers realistic graphics, a diverse lineup of cars, and immersive racing experiences,
+                    showcasing the capabilities of the next-gen console at the time.
+
+
+                </div>
+                <button onclick="addToCart('f5', 'Forza 5', 90.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/4.jpg">
+            <div class="arOver">
+                <div class="arText">UFC 4.</div>
+                <div id="4" class="gameDes" style="color:white">Price:
+                    $42.99<br>Developer: EA<br>Size: 66GB<br>Released: july 9, 2020<br>Available on PC,
+                    PlayStation 4.
+                    Switch<br> It features realistic graphics, an extensive roster of UFC fighters, and an immersive
+                    career mode, allowing players to experience the intensity and strategy of MMA battles."
+                </div>
+                <button onclick="addToCart('4', 'UFC 4', 42.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/nba.jpg">
+            <div class="arOver">
+                <div class="arText">NBA 2K 23</div>
+                <div id="2k" class="gameDes" style="color:white">Price:
+                    Free<br>Developer: 2K<br>Size:
+                    102GB<br>Released: March 29, 2023<br>Available on PC, PlayStation 4.
+                    <br>" Known for its realistic graphics, engaging gameplay, and comprehensive MyCareer mode, it has
+                    become a popular and critically acclaimed franchise in the sports gaming genre.
+                </div>
+                <button onclick="addToCart('2k', 'NBA 2K 23', 0)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/23.jpg">
+            <div class="arOver">
+                <div class="arText">FIFA 23</div>
+                <div id="23" class="gameDes" style="color:white">Price:
+                    $80.99<br>Developer:EA <br>Size:
+                    67GB<br>Released: October 19, 2022<br>Available on Playstation 4, Windows, Xbox One<br>
+                    A soccer simulation game developed by EA Sports.
+                    It features updated player rosters, enhanced graphics, and improvements in gameplay mechanics,
+                    offering a realistic and immersive experience for soccer enthusiasts.
+
+
+                </div>
+                <button onclick="addToCart('23', 'FIFA 23', 80.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/22.jpg">
+            <div class="arOver">
+                <div class="arText">FIFA 22</div>
+                <div id="22" class="gameDes" style="color:white">Price:
+                    $65.99<br>Developer: EA<br>Size:
+                    36GB<br>Released: November, 2021<br>Available on PC, PS4, PS5, Switch, Xbox One Xbox Series X|S<br>
+                    A soccer simulation game developed by EA Sports.
+                    It features updated player rosters, enhanced graphics, and improvements in gameplay mechanics,
+                    offering a realistic and immersive experience for soccer enthusiasts.
+                </div>
+                <button onclick="addToCart('22', 'FIFA 22', 65.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/f1.jpg">
+            <div class="arOver">
+                <div class="arText">F1 2017</div>
+                <div id="f1" class="gameDes" style="color:white">Price:
+                    $55.99<br>Developer: Codemasters<br>Size:
+                    29GB<br>Released: June 2, 2017<br>Available on PC, PS4, PS5, Xbox One, Xbox Series X<br>
+                    Formula One racing simulation game developed by Codemasters.
+                    It offers realistic racing experiences, an expanded career mode, and improved graphics, capturing
+                    the intensity and precision of Formula One racing.
+
+
+                </div>
+                <button onclick="addToCart('f1', 'F1 2017', 55.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/wwe.jpg">
+            <div class="arOver">
+                <div class="arText">WWE 2K 17</div>
+                <div id="wwe" class="gameDes" style="color:white">Price:
+                    $45.99<br>Developer: FromSoftware<br>Size:
+                    62GB<br>Released: August 1, 2027<br>Available on Steam, Xbox, PlayStation<br>
+                    It features an extensive roster of WWE superstars, improved graphics, and enhanced gameplay
+                    mechanics, providing an immersive experience for wrestling fans.
+                </div>
+                <button onclick="addToCart('wwe', 'WWE 2K 17', 45.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="cart" id="cart">
+        <h2>Gaming Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0.00<br></span>
+        <div>
+            <label for="paymentMethod">Select Payment Method:</label>
+            <select id="paymentMethod">
+                <option value="atm">ATM</option>
+                <option value="visa">Visa Card</option>
+            </select>
+        </div><button onclick="document.location='thankyou.html'" class="proceedbtn">Proceed</button></p>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="home.html">Categories</a></li>
+                    <li><a href="last page.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: contact@playfinity.com</p>
+                <p>Phone: +1-123-456-7890</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Playfinity. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

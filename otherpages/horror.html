@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playfinity | Horror</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/script/script.js"></script>
+</head>
+
+<body>
+    <div style="width: 100%; height: 15vmin; position: absolute; top: 0px; left: 0; background-color: #2E2467">
+        <div class="userinfo">
+            <p style="font-family:Myriad; font-size: 2.5vmin; color: white;" id="output">Hello, Anonymous</p>
+        </div>
+    </div>
+    <div class="backgroundgame">
+        <div class="webname">
+            <div class="logoBack"></div>
+            <div class="name">
+                <p style="color: #BF00FF">P</p>
+                <p>lay</p>
+                <p style="color: #BF00FF">F</p>
+                <p>inity</p>
+            </div>
+            <img src="assets/images/playfinitylogo.png">
+        </div>
+    </div>
+
+    <div class="navbar">
+        <button class="navbtn" onclick="goToHomePage()">Home</button>
+        <div class="dropdown">
+            <button class="navbtn">Categories ▼</button>
+            <div class="dropdown-content">
+                <a href="adventure.html">Adventure</a>
+                <a href="horror.html">Horror</a>
+                <a href="shooting.html">Shooting</a>
+                <a href="arcade.html">Arcade</a>
+                <a href="sports.html">Sports</a>
+                <a href="story.html">Story</a>
+                <a href="superhero.html">Superhero</a>
+                <a href="rpg.html">RPG</a>
+            </div>
+        </div>
+        <button class="navbtn" onclick="goToAbout()">About Us</button>
+    </div>
+
+    <div class="arcadeitems">
+        <h1
+            style="font-family: Devator; color: #dfdfdf; text-shadow: 0 0 8px #d556ff; background-color: #2E2467; width: 54vmin; height: 7.5vmin; display: flex; justify-content: center; align-items: center; border-radius: 4px; border: 2px solid #ca2dff; box-shadow: 0 0 15px#800080; position: absolute; z-index: 2;">
+            | Horror |</h1>
+        <div class="arcade">
+            <img src="assets/images/horror.jpg">
+            <p class="sometext" style="margin-left: -7vmin;">Horror games are a genre of video games designed to instill
+                fear and suspense.
+                They utilize atmospheric elements, psychological tension, and sometimes graphic violence to create a
+                frightening experience.
+                Key components include immersive storytelling, unique gameplay mechanics, impactful sound design, and
+                realistic visuals.
+                Popular titles include "Resident Evil," "Silent Hill," and "Outlast."</p>
+        </div>
+
+    </div>
+    <div class="arcadegames">
+        <div class="game">
+            <img src="assets/images/re4.jpg">
+            <div class="arOver">
+                <div class="arText">Resident Evil 4</div>
+                <div id="re4" class="gameDes" style="color:white">Price: $70.99<br>Developer: Capcom<br>Size:
+                    47GB<br>Released: March 24, 2023<br>Available: PC, PS4, Xbox, Ntendo<br>"Resident Evil 4" is a
+                    survival horror game released in 2023, known for its intense action, atmospheric storytelling, and
+                    innovative over-the-shoulder perspective.
+                    The game follows Leon S. Kennedy as he battles grotesque creatures while trying to rescue the
+                    President's daughter from a sinister cult.
+
+                </div>
+                <button onclick="addToCart('re4', 'Resident Evil 4', 70.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/re2.jpg">
+            <div class="arOver">
+                <div class="arText">Resident Evil 2</div>
+                <div id="re2" class="gameDes" style="color:white">Price:
+                    $67.99<br>Developer: Capcom.
+                    Games<br>Size: 37GB<br>Released:January 25, 2019<br>Available on PC, PS5, Xbox Series X|S,
+                    Nintendo
+                    Switch<br>"Resident Evil 2" Remake, released on January 25, 2019, is a modernized version of the
+                    1998 survival horror classic.
+                    It features updated graphics, gameplay, and storytelling while retaining the original's tense
+                    atmosphere.
+
+
+                </div>
+                <button onclick="addToCart('re2', 'Resident Evil 2', 67.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/bloodborne.jpg">
+            <div class="arOver">
+                <div class="arText">BloodBorne</div>
+                <div id="blood" class="gameDes" style="color:white">Price:
+                    $40.99<br>Developer: Sony, Fromsoftware<br>Size: 70.048GB<br>Released: March 24, 2015<br>EXLCUSIVELY
+                    FOR PS.
+                    <br>"Bloodborne" was released on March 24, 2015, exclusively for the PlayStation 4.
+                    Developed by FromSoftware and directed by Hidetaka Miyazaki, the game is known for its challenging
+                    gameplay, dark atmosphere, and deep lore.
+                </div>
+                <button onclick="addToCart('blood', 'BloodBorne', 40.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/tlou.jpg">
+            <div class="arOver">
+                <div class="arText">The last of us.</div>
+                <div id="us" class="gameDes" style="color:white">Price:
+                    $50.99<br>Developer: Naught dog<br>Size: 69GB<br>Released: july 29, 2014<br>Available on PC,
+                    PlayStation 4.
+                    Switch<br>Naruto The game is renowned for its emotional storytelling and post-apocalyptic survival
+                    themes.
+                </div>
+                <button onclick="addToCart('us', 'The last of us', 50.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/tlou2.jpg">
+            <div class="arOver">
+                <div class="arText">The last of us 2</div>
+                <div id="us2" class="gameDes" style="color:white">Price:
+                    $96.99<br>Developer: Naught dogs<br>Size:
+                    102GB<br>Released: March 29, 2020<br>Available on PC, PlayStation 4.
+                    <br>" It continues the emotional journey in a post-apocalyptic world, focusing on Ellie's quest for
+                    revenge and exploring themes of loss and morality.
+                </div>
+                <button onclick="addToCart('us2', 'The last of us 2', 0)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/ds3.jpg">
+            <div class="arOver">
+                <div class="arText">Dark souls 3</div>
+                <div id="Dark" class="gameDes" style="color:white">Price:
+                    $30.99<br>Developer:Fromsoftware <br>Size:
+                    30GB<br>Released: October 19, 2017<br>Available on Playstation 4, Windows, Xbox One<br>
+                    Known for its challenging gameplay and intricate world design, players navigate a dark and
+                    atmospheric fantasy realm, battling formidable enemies and bosses to link the fading flame.
+
+
+                </div>
+                <button onclick="addToCart('dark', 'Dark souls 3', 30.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/ev2.jpg">
+            <div class="arOver">
+                <div class="arText">The evil withen 2</div>
+                <div id="ev2" class="gameDes" style="color:white">Price:
+                    $35.99<br>Developer: Tango GAmes<br>Size:
+                    36GB<br>Released: January, 2022<br>Available on PC, PS4, PS5, Switch, Xbox One Xbox Series X|S<br>
+                    In a psychological journey, players control Sebastian Castellanos as he explores a nightmarish
+                    alternate reality in search of his daughter, confronting grotesque creatures and unraveling a
+                    twisted narrative.
+                </div>
+                <button onclick="addToCart('ev2', 'The evil withen 2', 35.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/rev.jpg">
+            <div class="arOver">
+                <div class="arText">Resident Evil Village</div>
+                <div id="village" class="gameDes" style="color:white">Price:
+                    $64.99<br>Developer: Capcom<br>Size:
+                    43GB<br>Released: June 2, 2023<br>Available on PC, PS4, PS5, Xbox One, Xbox Series X<br>
+                    Set in a mysterious village, players guide Ethan Winters through chilling encounters with
+                    supernatural foes, uncovering a dark and intricate narrative.
+                </div>
+                <button onclick="addToCart('village', 'Resident Evil Village', 64.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/er.jpg">
+            <div class="arOver">
+                <div class="arText">Elden Ring</div>
+                <div id="ring" class="gameDes" style="color:white">Price:
+                    $59.99<br>Developer: FromSoftware<br>Size:
+                    50GB<br>Released: March 1, 2021<br>Available on Steam, Xbox, PlayStation<br>
+                    Known for its vast open world, challenging combat, and rich lore, players embark on an epic
+                    adventure to shatter the Elden Ring and confront formidable enemies.
+                </div>
+                <button onclick="addToCart('ring', 'Elden Ring', 59.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="cart" id="cart">
+        <h2>Gaming Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0.00<br></span>
+        <div>
+            <label for="paymentMethod">Select Payment Method:</label>
+            <select id="paymentMethod">
+                <option value="atm">ATM</option>
+                <option value="visa">Visa Card</option>
+            </select>
+        </div><button onclick="document.location='thankyou.html'" class="proceedbtn">Proceed</button></p>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="home.html">Categories</a></li>
+                    <li><a href="last page.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: contact@playfinity.com</p>
+                <p>Phone: +1-123-456-7890</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Playfinity. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playfinity | Superhero</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/script/script.js"></script>
+</head>
+
+<body>
+    <div style="width: 100%; height: 15vmin; position: absolute; top: 0px; left: 0; background-color: #2E2467">
+        <div class="userinfo">
+            <p style="font-family:Myriad; font-size: 2.5vmin; color: white;" id="output">Hello, Anonymous</p>
+        </div>
+    </div>
+    <div class="backgroundgame">
+        <div class="webname">
+            <div class="logoBack"></div>
+            <div class="name">
+                <p style="color: #BF00FF">P</p>
+                <p>lay</p>
+                <p style="color: #BF00FF">F</p>
+                <p>inity</p>
+            </div>
+            <img src="assets/images/playfinitylogo.png">
+        </div>
+    </div>
+
+    <div class="navbar">
+        <button class="navbtn" onclick="goToHomePage()">Home</button>
+        <div class="dropdown">
+            <button class="navbtn">Categories ▼</button>
+            <div class="dropdown-content">
+                <a href="adventure.html">Adventure</a>
+                <a href="horror.html">Horror</a>
+                <a href="shooting.html">Shooting</a>
+                <a href="arcade.html">Arcade</a>
+                <a href="sports.html">Sports</a>
+                <a href="story.html">Story</a>
+                <a href="superhero.html">Superhero</a>
+                <a href="rpg.html">RPG</a>
+            </div>
+        </div>
+        <button class="navbtn" onclick="goToAbout()">About Us</button>
+    </div>
+
+    <div class="arcadeitems">
+        <h1
+            style="font-family: Devator; color: #dfdfdf; text-shadow: 0 0 8px #d556ff; background-color: #2E2467; width: 54vmin; height: 7.5vmin; display: flex; justify-content: center; align-items: center; border-radius: 4px; border: 2px solid #ca2dff; box-shadow: 0 0 15px#800080; position: absolute; z-index: 2;">
+            | Super Hero |</h1>
+        <div class="arcade" style="margin-left: 20vmin;">
+            <img src="assets/images/wp6304958-02-anime-ps4-wallpapers.jpg">
+            <p class="sometext" style="margin-left: -21vmin; width: 120vmin;">Superhero games are immersive digital
+                adventures that allow
+                players to step into the iconic shoes of legendary comic book characters. Fueled by captivating
+                narratives,
+                dynamic gameplay, and breathtaking graphics, these games offer an unparalleled experience of becoming a
+                superhero.
+                Whether swinging through urban landscapes as Spider-Man, navigating the shadowy alleys of Gotham as
+                Batman, or unleashing
+                superhuman abilities to combat cosmic threats, the thrill of embodying these larger-than-life figures is
+                irresistible.
+                The combination of adrenaline-pumping action, compelling storylines, and the opportunity to wield
+                extraordinary powers makes
+                superhero games an irresistibly attractive and undeniably fun genre, where players can not only play but
+                truly
+                become the heroes they've admired..</p>
+        </div>
+
+    </div>
+    <div class="arcadegames">
+        <div class="game">
+            <img src="assets/images/batman arkham asylum.png">
+            <div class="arOver">
+                <div class="arText">Batman Arkham Asylum</div>
+                <div id="BatmanAsylum" class="gameDes" style="color:white">Price: $19.99<br>Developer: Rock Steady
+                    Studios
+                    Entertainment<br>Size:
+                    8GB<br>Released: August 25, 2009 <br>Available: PC, PlayStation, Xbox, and PC <br>. Interactive
+                    Entertainment.
+                    Based on the DC Comics superhero Batman and written by veteran Batman writer Paul Dini, Arkham
+                    Asylum
+                    was inspired by the long-running comic book mythos.
+                </div>
+                <button onclick="addToCart('BatmanAsylum' , 'Batman Arkham Asylum', 19.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/batman arkham city.png">
+            <div class="arOver">
+                <div class="arText">Batman Arkham City </div>
+                <div id="BatmanCity" class="gameDes" style="color:white">Price:
+                    $4.99<br>Developer: Rocksteady Studios, Warner Bros.
+                    Games<br>Size: 17GB<br>Released: October 18, 2011<br>Available on PC, PS5, Xbox Series X|S,
+                    Nintendo
+                    Switch<br> it is the sequel to the 2009 video game Batman: Arkham Asylum and the second installment
+                    in the Batman: Arkham series
+                </div>
+                <button onclick="addToCart('BatmanCity', 'Batman Arkham City', 4.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/batman askham knight.png">
+            <div class="arOver">
+                <div class="arText">Batman Arkham Knight</div>
+                <div id="BatmanKnight" class="gameDes" style="color:white">Price:
+                    $39.99<br>Developer: Rocksteady studios<br>Size: 55GB<br>Released: June 23, 2015<br>Available on
+                    Epic Games
+                    Store, PlayStation 4, PlayStation
+                    5, Steam, Windows 10, Xbox One, and Xbox Series X|S<br>Batman: Arkham Knight is an action-adventure
+                    game set
+                    within an open world Gotham City, which can be explored freely by the player from the beginning of
+                    the game,
+                    allowing them to travel seamlessly anywhere within its boundaries..</div>
+                <button onclick="addToCart('BatmanKnight', 'Batman Arkaham Knight', 39.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/gotham knights.jpeg">
+            <div class="arOver">
+                <div class="arText">Gotham Knights</div>
+                <div id="Gotham" class="gameDes" style="color:white">Price:
+                    $69.99<br>Developer: Natalie Abrams & Chad Fiveash <br>Size:41GB <br>Released: March 14,
+                    2023<br>Available on PC,
+                    PlayStation 4, and Nintendo
+                    Switch<br>Gotham Knights is an open-world, action RPG set in the most dynamic and interactive Gotham
+                    City yet.
+                    In either solo-play or with one other hero, patrol Gotham's five distinct boroughs and drop in on
+                    criminal
+                    activity wherever you find it.
+                </div>
+                <button onclick="addToCart('Gotham', 'Gotham Knights', 69.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/injustice 2.png">
+            <div class="arOver">
+                <div class="arText">Injustice 2 </div>
+                <div id="Injustice" class="gameDes" style="color:white">Price:
+                    $49.99<br>Developer: Nether realms Studios And Warner Bros<br>Size:
+                    52 GB <br>Released:May 9, 2017<br>Available on PC, PlayStation 4, and Nintendo
+                    Switch<br>Injustice 2 is a fighting game in which players compete in one-on-one
+                    combat using characters from the DC Universe and other third-party franchises.
+                </div>
+                <button onclick="addToCart('Injustice', 'Injustice 2', 49.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/marvel avengers.jpeg">
+            <div class="arOver">
+                <div class="arText">Marvel Avengers 6</div>
+                <div id="Marvel" class="gameDes" style="color:white">Price:
+                    $69.99<br>Developer: Crystal Dynamics and Nixess Softwares<br>Size:
+                    147.31GB<br>Released: September 4, 2020 <br>Marvel's Avengers is a third-person, action-adventure
+                    game.
+                    It features an original story with single-player and co-operative gameplay. The game features a
+                    combat system
+                    chaining attacks, dodges, abilities, skills and elements during a combat phase..
+                </div>
+                <button onclick="addToCart('Marvel', 'Marvel Avengers', 59.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/spider man 2.webp">
+            <div class="arOver">
+                <div class="arText">Spider Man 2</div>
+                <div id="Spiderman" class="gameDes" style="color:white">Price:
+                    $14.99<br>Developer: Insomniac Games <br>Size:
+                    36GB<br>Released: October 20, 2023<br>Available on PC, PS4, PS5, Switch, Xbox One Xbox Series
+                    X|S<br>
+                    Spider-Man 2: The Game immerses players in an open-world web-swinging adventure, allowing them to
+                    embrace
+                    their inner superhero as they combat iconic villains and navigate the challenges of Peter Parker's
+                    double
+                    life in New York City.
+                </div>
+                <button onclick="addToCart('Spiderman', 'Spider Man 2 ', 14.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/spiderman remastered.png">
+            <div class="arOver">
+                <div class="arText">Spider Man remastered</div>
+                <div id="Spiderman2" class="gameDes" style="color:white">Price:
+                    $14.99<br>Developer: Insomniac Games and Marvel Entertainment<br>Size:
+                    60GB<br>Released: August 12, 2022<br>Available on PC, PS4, PS5, Xbox One, Xbox Series X<br>
+                    Spider-Man Remastered enhances the classic web-slinging action of the original game with stunning
+                    graphics,
+                    improved performance, and additional content, delivering an even more immersive and visually
+                    impressive
+                    superhero gaming experience
+                </div>
+                <button onclick="addToCart('Spiderman2', 'Spiderman Remastered', 14.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/wolverine.png">
+            <div class="arOver">
+                <div class="arText">Wolverine</div>
+                <div id="dead" class="gameDes" style="color:white">Price:
+                    $59.99<br>Developer: Insomniac games <br>Size:
+                    50GB<br>Released: 2021 <br>Available on Steam, Xbox, PlayStation<br>
+                    Wolverine embarks on a relentless and visceral journey in a solo adventure,
+                    showcasing his iconic adamantium claws and berserker rage in a dark and gripping narrative
+                </div>
+                <button onclick="addToCart('dead', 'Dead or Alive 6', 59.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="cart" id="cart">
+        <h2>Gaming Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0.00<br></span>
+        <div>
+            <label for="paymentMethod">Select Payment Method:</label>
+            <select id="paymentMethod">
+                <option value="atm">ATM</option>
+                <option value="visa">Visa Card</option>
+            </select>
+        </div><button onclick="document.location='thankyou.html'" class="proceedbtn">Proceed</button></p>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="home.html">Categories</a></li>
+                    <li><a href="last page.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: contact@playfinity.com</p>
+                <p>Phone: +1-123-456-7890</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Playfinity. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

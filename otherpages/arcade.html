@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playfinity | Arcade</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/script/script.js"></script>
+</head>
+
+<body>
+    <div style="width: 100%; height: 15vmin; position: absolute; top: 0px; left: 0; background-color: #2E2467">
+        <div class="userinfo">
+            <p style="font-family:Myriad; font-size: 2.5vmin; color: white;" id="output">Hello, Anonymous</p>
+        </div>
+    </div>
+    <div class="backgroundgame">
+        <div class="webname">
+            <div class="logoBack"></div>
+            <div class="name">
+                <p style="color: #BF00FF">P</p>
+                <p>lay</p>
+                <p style="color: #BF00FF">F</p>
+                <p>inity</p>
+            </div>
+            <img src="assets/images/playfinitylogo.png">
+        </div>
+    </div>
+
+    <div class="navbar">
+        <button class="navbtn" onclick="goToHomePage()">Home</button>
+        <div class="dropdown">
+            <button class="navbtn">Categories ▼</button>
+            <div class="dropdown-content">
+                <a href="adventure.html">Adventure</a>
+                <a href="horror.html">Horror</a>
+                <a href="shooting.html">Shooting</a>
+                <a href="arcade.html">Arcade</a>
+                <a href="sports.html">Sports</a>
+                <a href="story.html">Story</a>
+                <a href="superhero.html">Superhero</a>
+                <a href="rpg.html">RPG</a>
+            </div>
+        </div>
+        <button class="navbtn" onclick="goToAbout()">About Us</button>
+    </div>
+
+    <div class="arcadeitems">
+        <h1
+            style="font-family: Devator; color: #dfdfdf; text-shadow: 0 0 8px #d556ff; background-color: #2E2467; width: 54vmin; height: 7.5vmin; display: flex; justify-content: center; align-items: center; border-radius: 4px; border: 2px solid #ca2dff; box-shadow: 0 0 15px#800080; position: absolute; z-index: 2;">
+            | Arcade |</h1>
+        <div class="arcade">
+            <img src="assets/images/arcade.jpg">
+            <p class="sometext" style="margin-left: -7vmin;">Arcade games are characterized by their straightforward
+                gameplay, often designed for quick, immersive, and entertaining
+                experiences. These games frequently feature short levels, simple controls, and high replayability,
+                aiming to provide
+                instant fun and excitement. They commonly encompass various genres, such as action, adventure, puzzles,
+                racing, and
+                shooters, delivering fast-paced challenges and encouraging competition among players for high scores.
+                Arcade games are
+                rooted in the traditional coin-operated machines found in public venues, evoking nostalgia while
+                continuing to adapt and
+                thrive in the digital gaming landscape.</p>
+        </div>
+
+    </div>
+    <div class="arcadegames">
+        <div class="game">
+            <img src="assets/images/wp2665253-tekken-7-hd-wallpapers.jpg">
+            <div class="arOver">
+                <div class="arText">Tekken 7</div>
+                <div id="tekken" class="gameDes" style="color:white">Price: $89.99<br>Developer: Bandai Namco
+                    Entertainment<br>Size:
+                    60GB<br>Released: June 2, 2017<br>Available: PC, PS4, Xbox One<br>Tekken 7 is the
+                    latest installment in the
+                    Tekken series. It is a fighting game that features story-driven cinematic
+                    battles and intense duels with over 30 playable characters
+                </div>
+                <button onclick="addToCart('tekken', 'Tekken 7', 89.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/mortal-kombat-1.jpg">
+            <div class="arOver">
+                <div class="arText">Mortal Kombat 1</div>
+                <div id="mortal" class="gameDes" style="color:white">Price:
+                    $69.99<br>Developer: NetherRealm Studios, Warner Bros.
+                    Games<br>Size: 100GB<br>Released: September 19, 2023<br>Available on PC, PS5, Xbox Series X|S,
+                    Nintendo
+                    Switch<br>Mortal Kombat 1 is the twelfth
+                    main installment in the Mortal Kombat series, and serves as its second reboot after 2011's Mortal
+                    Kombat. The game features a story mode, online multiplayer with rollback netcode, and offline
+                    gameplay.</div>
+                <button onclick="addToCart('mortal', 'Mortal Kombat 1', 69.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/wp10511022-the-king-of-fighters-xv-wallpapers.jpg">
+            <div class="arOver">
+                <div class="arText">King of Fighters XV</div>
+                <div id="king" class="gameDes" style="color:white">Price:
+                    $59.99<br>Developer: SNK<br>Size: 68.048GB<br>Released: February 17, 2022<br>Available on Epic Games
+                    Store, PlayStation 4, PlayStation
+                    5, Steam, Windows 10, Xbox One, and Xbox Series X|S<br>The King of Fighters XV, also called KOF XV,
+                    is a fighting game. The narrative primarily revolves around two fighters with multiverse-related
+                    supernatural powers.</div>
+                <button onclick="addToCart('king', 'King of Fighter XV', 59.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/wp2418994-naruto-shippuden-ultimate-ninja-storm-4-wallpapers.jpg">
+            <div class="arOver">
+                <div class="arText">Naruto Shippuden: Ultimate Ninja Storm 4</div>
+                <div id="naruto" class="gameDes" style="color:white">Price:
+                    $19.99<br>Developer: CyberConnect2<br>Size: 40GB<br>Released: February 04, 2016<br>Available on PC,
+                    PlayStation 4, and Nintendo
+                    Switch<br>Naruto Shippuden: Ultimate Ninja Storm 4” is
+                    a fighting game based on the Naruto manga and anime series.
+                </div>
+                <button onclick="addToCart('naruto', 'Naruto Shippuden: Ultimate Ninja Storm 4', 19.99)"
+                    class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/wp7194559-one-piece-bounty-rush-wallpapers1.png">
+            <div class="arOver">
+                <div class="arText">One Piece: Bounty Rush</div>
+                <div id="onepiece" class="gameDes" style="color:white">Price:
+                    Free<br>Developer: Bancdai Namco Entertainment<br>Size:
+                    2.16GB<br>Released: March 29, 2018<br>Available on PC, PlayStation 4, and Nintendo
+                    Switch<br>"One Piece Bounty Rush" is a free-to-play mobile game based on the One Piece
+                    franchise. It is a real-time MOBA that
+                    challenges up to four players to join forces and face another group of pirates
+                </div>
+                <button onclick="addToCart('onepiece', 'One Piece: Bounty Rush', 0)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/wp3756456-soulcalibur-vi-wallpapers.jpg">
+            <div class="arOver">
+                <div class="arText">Soul Calibur 6</div>
+                <div id="soul" class="gameDes" style="color:white">Price:
+                    $59.99<br>Developer: Bancdai Namco Studios, Dimps<br>Size:
+                    20GB<br>Released: October 19, 2018<br>Available on Playstation 4, Windows, Xbox One<br>
+                    Soul Calibur 6 is a fighting arcade game that remakes the story of the Soul game, taking
+                    place from 1583 to 1589. The game inlolves two weapons-wielding combatants battling against one
+                    another using 3D system.
+                </div>
+                <button onclick="addToCart('soul', 'Soul Calibur 6', 59.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/wp5117126-dragon-ball-z-kakarot-wallpapers.jpg">
+            <div class="arOver">
+                <div class="arText">Dragon Ball Z: Kakarot</div>
+                <div id="dragon" class="gameDes" style="color:white">Price:
+                    $14.99<br>Developer: CyberConnect2<br>Size:
+                    36GB<br>Released: January, 2010<br>Available on PC, PS4, PS5, Switch, Xbox One Xbox Series X|S<br>
+                    Kakarot is an action role-playing game with fighting game elements. The game includes superhuman
+                    battles
+                    from Dragon
+                    Ball.
+                </div>
+                <button onclick="addToCart('dragon', 'Dragon Ball Z: Kakarot', 14.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/streetfighter.jpg">
+            <div class="arOver">
+                <div class="arText">Street Fighter 6</div>
+                <div id="street" class="gameDes" style="color:white">Price:
+                    $14.99<br>Developer: Capcom<br>Size:
+                    60GB<br>Released: June 2, 2023<br>Available on PC, PS4, PS5, Xbox One, Xbox Series X<br>
+                    Street Fighter 6 is a 2½D Fighting Game developed and published by Capcom as the seventh main entry
+                    in the Street Fighter franchise. It is touted as the "next evolution" of fighting games, and marks
+                    the biggest shake-up for the series since Street Fighter II.
+                </div>
+                <button onclick="addToCart('street', 'Street Fighter 6', 14.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/wp3970851-dead-or-alive-6-wallpapers.jpg">
+            <div class="arOver">
+                <div class="arText">Dead or Alive 6</div>
+                <div id="dead" class="gameDes" style="color:white">Price:
+                    $59.99<br>Developer: Team Ninja, Koei Tecmo<br>Size:
+                    50GB<br>Released: March 1, 2019<br>Available on Steam, Xbox, PlayStation<br>
+                    Dead or Alive 6 is a fast-paced 3D fighting game developed by Team Ninja and published by Koei
+                    Tecmo. It is the sixth main entry in the Dead or Alive fighting series.
+                </div>
+                <button onclick="addToCart('dead', 'Dead or Alive 6', 59.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="cart" id="cart">
+        <h2>Gaming Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0.00<br>
+                <div>
+                    <label for="paymentMethod">Select Payment Method:</label>
+                    <select id="paymentMethod">
+                        <option value="atm">ATM</option>
+                        <option value="visa">Visa Card</option>
+                    </select>
+                </div>
+            </span><button onclick="window.location.href = 'thankyou.html'" class="proceedbtn">Proceed</button></p>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="home.html">Categories</a></li>
+                    <li><a href="last page.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: contact@playfinity.com</p>
+                <p>Phone: +1-123-456-7890</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Playfinity. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

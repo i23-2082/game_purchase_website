@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playfinity | RPG</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/script/script.js"></script>
+</head>
+
+<body>
+    <div style="width: 100%; height: 15vmin; position: absolute; top: 0px; left: 0; background-color: #2E2467">
+        <div class="userinfo">
+            <p style="font-family:Myriad; font-size: 2.5vmin; color: white;" id="output">Hello, Anonymous</p>
+        </div>
+    </div>
+    <div class="backgroundgame">
+        <div class="webname">
+            <div class="logoBack"></div>
+            <div class="name">
+                <p style="color: #BF00FF">P</p>
+                <p>lay</p>
+                <p style="color: #BF00FF">F</p>
+                <p>inity</p>
+            </div>
+            <img src="assets/images/playfinitylogo.png">
+        </div>
+    </div>
+
+    <div class="navbar">
+        <button class="navbtn" onclick="goToHomePage()">Home</button>
+        <div class="dropdown">
+            <button class="navbtn">Categories ▼</button>
+            <div class="dropdown-content">
+                <a href="adventure.html">Adventure</a>
+                <a href="horror.html">Horror</a>
+                <a href="shooting.html">Shooting</a>
+                <a href="arcade.html">Arcade</a>
+                <a href="sports.html">Sports</a>
+                <a href="story.html">Story</a>
+                <a href="superhero.html">Superhero</a>
+                <a href="rpg.html">RPG</a>
+            </div>
+        </div>
+        <button class="navbtn" onclick="goToAbout()">About Us</button>
+    </div>
+
+    <div class="arcadeitems">
+        <h1
+            style="font-family: Devator; color: #dfdfdf; text-shadow: 0 0 8px #d556ff; background-color: #2E2467; width: 54vmin; height: 7.5vmin; display: flex; justify-content: center; align-items: center; border-radius: 4px; border: 2px solid #ca2dff; box-shadow: 0 0 15px#800080; position: absolute; z-index: 2;">
+            | RPG |</h1>
+        <div class="arcade" style="margin-left: 20vmin;">
+            <img src="assets/images/Rpg image.jpg">
+            <p class="sometext" style="margin-left: -21vmin; width: 120vmin;">Superhero games are immersive digital
+                adventures that allow
+                players to step into the iconic shoes of legendary comic book characters. Fueled by captivating
+                narratives,
+                dynamic gameplay, and breathtaking graphics, these games offer an unparalleled experience of becoming a
+                superhero.
+                Whether swinging through urban landscapes as Spider-Man, navigating the shadowy alleys of Gotham as
+                Batman, or unleashing
+                superhuman abilities to combat cosmic threats, the thrill of embodying these larger-than-life figures is
+                irresistible.
+                The combination of adrenaline-pumping action, compelling storylines, and the opportunity to wield
+                extraordinary powers makes
+                superhero games an irresistibly attractive and undeniably fun genre, where players can not only play but
+                truly
+                become the heroes they've admired..</p>
+        </div>
+
+    </div>
+    <div class="arcadegames">
+        <div class="game">
+            <img src="assets/images/Assasin's Creed Odyssey (2).jpg">
+            <div class="arOver">
+                <div class="arText">Assasin's Creed Odyssey</div>
+                <div id="Assasin" class="gameDes" style="color:white">Price: $29.99<br>Developer: Ubisoft Quebec
+                    <br>Size:
+                    50GB<br>Released: October 5, 2018 <br>Available: PlayStation 4, Xbox One, and PC. <br>"Assassin's
+                    Creed Odyssey"
+                    is an action-role playing game set in ancient Greece, where players can embark on a grand adventure
+                    as a Spartan
+                    mercenary, exploring a vast open world and making choices that shape their own destiny.
+                </div>
+                <button onclick="addToCart('Assasin' , 'Assasin\'s Creed Odyssey', 29.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/Diablo III.png">
+            <div class="arOver">
+                <div class="arText">Diablo III </div>
+                <div id="Diablo" class="gameDes" style="color:white">Price:
+                    $20.99<br>Developer: Blizzard Entertainment
+                    Games<br>Size: 30GB<br>Released: May 15, 2012<br>Available on PlayStation 4, Xbox One, and PC
+                    Switch<br> Diablo III" is an action role-playing game set in a dark fantasy world, where players
+                    can choose from various classes and engage in epic battles against hordes of demons to save the
+                    realm of Sanctuary
+                </div>
+                <button onclick="addToCart('Diablo', 'Diablo III', 20.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/final fantasy XII.jpeg">
+            <div class="arOver">
+                <div class="arText">Final Fantasy XII</div>
+                <div id="Final" class="gameDes" style="color:white">Price:
+                    $59.99<br>Developer: Square Enix<br>Size: 40GB<br>Released: March 16, 2006<br>Available on
+                    PlayStation 4, Nintendo Switch, and PC 5 <br>Final Fantasy XII" is a critically acclaimed
+                    role-playing game set in the
+                    fictional world of Ivalice, featuring a complex political storyline and a unique real-time combat
+                    system...</div>
+                <button onclick="addToCart('Final', 'Final Fantasy XII', 59.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/Horizon zero dawn.png">
+            <div class="arOver">
+                <div class="arText">Horizon Zero Dawn</div>
+                <div id="Horizon" class="gameDes" style="color:white">Price:
+                    $29.99<br>Developer: Guerrilla Games <br>Size:52GB <br>Released: February 28, 2017<br>Available on
+                    PlayStation 4
+                    Switch<br>"Horizon Zero Dawn" is a critically acclaimed action role-playing game set in a
+                    post-apocalyptic
+                    world where players control Aloy, a skilled hunter and archer who battles robotic creatures and
+                    unravels
+                    the mysteries of her world.
+                </div>
+                <button onclick="addToCart('Horizon', 'Horizon Zero Dawn', 29.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/legend of zelda.jpeg">
+            <div class="arOver">
+                <div class="arText">Legends Of Zelda</div>
+                <div id="Legends" class="gameDes" style="color:white">Price:
+                    $59.99<br>Developer: Nether realms Studios And Warner Bros<br>Size:
+                    15 GB <br>Released:February 21, 1986.<br>Available on Nintendo consoles, specifically the Nintendo
+                    Switch and 3D
+                    Switch<br>"The Legend of Zelda" is an iconic action-adventure game series where players control the
+                    hero,
+                    Link, on a quest to rescue Princess Zelda and defeat the evil Ganon
+                </div>
+                <button onclick="addToCart('Legends', 'Legends of Zelda', 59.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/Nier Automata.png">
+            <div class="arOver">
+                <div class="arText">Nier Automata</div>
+                <div id="Nier" class="gameDes" style="color:white">Price:
+                    $80 <br>Developer:Platinum Games <br>Size:
+                    55GB<br>Released: March 2017 <br>Available on PlayStation 4 and Microsoft Window <br>Nier Automata"
+                    is an action role-playing game
+                    set in a post-apocalyptic world where players control androids fighting against machines to reclaim
+                    Earth.
+                </div>
+                <button onclick="addToCart('Nier', 'Nier Automata', 80)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/persona 5.ico">
+            <div class="arOver">
+                <div class="arText">persona 5</div>
+                <div id="Persona" class="gameDes" style="color:white">Price:
+                    $60<br>Developer: Insomniac Games <br>Size:
+                    25GB<br>Released: September 2016<br>Available on PlayStation 4 and PlayStation 3<br>
+                    Persona 5 is a critically acclaimed role-playing game that combines stylish visuals, engaging
+                    storytelling,
+                    and strategic turn-based combat. It follows a group of high school students as they navigate both
+                    their everyday
+                    lives and an alternate reality filled with supernatural phenomena.
+                </div>
+                <button onclick="addToCart('Persona', 'Persona 5  ', 60)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/Skyrim.png">
+            <div class="arOver">
+                <div class="arText">Skyrim</div>
+                <div id="Skyrim" class="gameDes" style="color:white">Price:
+                    $49.99<br>Developer: Bethesda Game Studios<br>Size:
+                    45GB<br>Released: November 11, 2011 <br>Available on PlayStation, Xbox, and PC<br>
+                    Skyrim is an epic open-world fantasy game where players can explore a vast and immersive land,
+                    encountering dragons, ancient ruins, and engaging in various quests and adventures. It offers a rich
+                    and
+                    deep gameplay experience with countless possibilities and choices.
+                </div>
+                <button onclick="addToCart('Skyrim', 'Skyrim', 49.99)" class="cartbtn">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="game">
+            <img src="assets/images/witcher 3 wild hunt.png">
+            <div class="arOver">
+                <div class="arText">Witcher 3 Wild Hunt</div>
+                <div id="Witcher" class="gameDes" style="color:white">Price:
+                    $30<br>Developer:The Witcher 3: Wild Hunt was developed by CD Projekt RED. <br>Size:
+                    50GB<br>Released: May 19, 2015 <br>Available on PC, PlayStation 4, Xbox One, and Nintendo
+                    Switch.<br>
+                    "The Witcher 3: Wild Hunt is an immersive open-world action role-playing game filled with
+                    captivating
+                    storytelling and intense combat. Embark on a journey as Geralt of Rivia, a professional monster
+                    hunter,
+                    as you navigate a war-torn fantasy world."
+                </div>
+                <button onclick="addToCart('Witcher', 'witcher 3 wild hunt', 59.99)" class="cartbtn">Add to
+                    Cart</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="cart" id="cart">
+        <h2>Gaming Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0.00<br></span>
+        <div>
+            <label for="paymentMethod">Select Payment Method:</label>
+            <select id="paymentMethod">
+                <option value="atm">ATM</option>
+                <option value="visa">Visa Card</option>
+            </select>
+        </div><button onclick="document.location='thankyou.html'" class="proceedbtn">Proceed</button></p>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="home.html">Categories</a></li>
+                    <li><a href="last page.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: contact@playfinity.com</p>
+                <p>Phone: +1-123-456-7890</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Playfinity. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
